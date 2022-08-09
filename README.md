@@ -5,4 +5,4 @@
 ### Which countries are Rockbuster customers based in?
 ### Where are customers with a high lifetime value based?
 ### Do sales figures vary between geographic regions?
-## To answer these questions basic queries, filters, cleaning and summarizing data, joins, subqueries, and common table expressions were done.  Finally a Tableua presentation was created to show the results that answered the company questions.
+## To answer these questions basic queries, filters, cleaning and summarizing data, joins, subqueries, and common table expressions were done.  Finally a Tableau presentation was created to show the results that answered the company questions.
