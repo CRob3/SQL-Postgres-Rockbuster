@@ -1,0 +1,5 @@
+### This code was checking for duplicate films in the data
+SELECT film_id, title, description, COUNT (*)
+FROM film
+GROUP BY film_id, title, description
+HAVING COUNT (*) > 1;
