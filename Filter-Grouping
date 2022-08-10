@@ -1,0 +1,7 @@
+### This was grouping data and applying filters to query for specific information
+SELECT rating, COUNT(film_id) AS count_of_movies, 
+AVG(rental_rate) AS avg_rental_rate, MIN(rental_duration) AS min_rental_days,
+MAX (rental_duration) AS max_rental_days
+FROM film
+GROUP BY rating
+HAVING rating IN ('PG', 'G');
