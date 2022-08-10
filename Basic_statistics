@@ -1,0 +1,8 @@
+### Code to get the basic statistics for the films
+SELECT MIN(release_year) AS min_year, MAX(release_year) AS max_year, AVG(release_year) AS
+avg_release_year, MIN(rental_rate) AS min_rental_rate, MAX(rental_rate) AS max_rental_rate,
+AVG(rental_rate) AS avg_rental_rate, MIN(rental_duration) AS min_days, MAX(rental_duration)
+AS max_days, AVG(rental_duration) AS avg_days, MIN(length) AS min_length, MAX(length) AS
+max_length, AVG(length) AS avg_length, MIN(replacement_cost) AS min_replace, 
+Max(replacement_cost) AS max_replace, AVG(replacement_cost) AS avg_replace
+FROM film;
